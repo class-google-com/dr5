@@ -1,3 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+<ModulePrefs title="google.com" />
+<Content type="html"><![CDATA[
+
 
 <!DOCTYPE html>
 <html>
@@ -13,7 +18,7 @@
 <script type="text/javascript">
       var options = {
         author: "Vseigru",        
-		logo: "https://cdn.jsdelivr.net/gh/class-google-com/dr5@main/logo.jpg",
+    logo: "https://cdn.jsdelivr.net/gh/class-google-com/dr5@main/logo.jpg",
         gameName: "Geometry Dash: Mr Dubstep",
         gameUrl: "/",
         moreLink: ("https://sites.google.com/view/games-unblockedd/"),
@@ -29,3 +34,6 @@
 <div class="floating" id="moreg" style="position:fixed; top: 30%; left: 0px; z-index: 10"><a target="_blank" href="https://sites.google.com/view/games-unblockedd/" title="unblocked games"><img
             src="MoreGames1.png" width="60" height="60"
             style="cursor:pointer;" alt="unblocked Games"></a></div>
+
+]]></Content>
+</Module>
