@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="google.com" />
+  <Content type="html"><![CDATA[
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Geometry Dash: Mr Dubstep</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/class-google-com/dr5@main/gameloader.css" />
+        <script src="https://cdn.jsdelivr.net/gh/class-google-com/dr5@main/gameloader.js"></script>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      </head>
+      <body>
+        <script type="text/javascript">
+          var options = {
+            author: "Vseigru",        
+            logo: "https://cdn.jsdelivr.net/gh/class-google-com/dr5@main/logo.jpg",
+            gameName: "Geometry Dash: Mr Dubstep",
+            gameUrl: "/",
+            moreLink: ("https://sites.google.com/view/games-unblockedd/"),
+            allowFullscreen: true,
+            locale: "ru_RU",
+            loader: "5.6.x",
+            loaderOptions: {"moduleJsonUrl": "https://cdn.jsdelivr.net/gh/class-google-com/dr5@main/GD.json", "unityLoaderUrl": "https://cdn.jsdelivr.net/gh/class-google-com/dr5@main/UnityLoader.js"},
+          };
+          GameInit.load(options);
+        </script>
+      </body>
+    </html>
+  ]]></Content>
+</Module>
