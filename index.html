@@ -1,35 +1,42 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>picker</title>
-    <meta name="viewport" content="width=device-width">
-    <link href="/y8-studio/unity/config/TemplateData57/style.css" rel="stylesheet">
-    <link href="/y8-studio/unity/config/shared/style.css" rel="stylesheet">
-    <link href="/y8-studio/unity/config/shared/gamebreak/gamebreak.css" rel="stylesheet">
-    <script src="/y8-studio/unity/config/shared/lib.js" type="text/javascript"></script>
-    <script src="/y8-studio/unity/config/shared/browser_detector.js" type="text/javascript"></script>
-    <script src="/y8-studio/unity/config/shared/sound_enabler.js" type="text/javascript"></script>
-    <script src="/y8-studio/unity/config/shared/metrika.js" type="text/javascript"></script>
-    <script src="/y8-studio/unity/config/shared/gamebreak/gamebreak.js" type="text/javascript"></script>
-    <script src="/y8-studio/unity/config/TemplateData57/game.js" type="text/javascript"></script>
-    <script src="/y8-studio/unity/config/TemplateData57/UnityProgress.js"></script>
-    <script src="Build/UnityLoader.js"></script>
-  <script>
-      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/CollectCubes_V2_64Bit.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(unityInstance, "complete")}}});
-    </script><link rel="canonical" href="https://www.y8.com/games/collect_cubes">
-</head>
-  <body>
-    <div id="container" class="container webgl-content">
-      <div id="unityContainer" style="width: 500px; height: 800px"></div>
-      <div class="footer">
-        <div class="unity disable"></div>
-        <div class="webgl enable"></div>
-        <h1 class="game-name">picker</h1>
-        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)">Maximize</div>
-      </div>
-    </div>
-  </body>
-</html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Stickman Rope Heroes</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
 
+<meta name="generator" content="Scirra Construct">
+	<meta name="author" content="fariscan">
+	<meta name="description" content="Stickman Rope Heroesnd">
+	<link rel="manifest" href="appmanifest.json">
+	<link rel="apple-touch-icon" sizes="128x128" href="icons/icon-128.png">
+	<link rel="apple-touch-icon" sizes="256x256" href="icons/icon-256.png">
+	<link rel="apple-touch-icon" sizes="512x512" href="icons/icon-512.png">
+	<link rel="icon" type="image/png" href="icons/icon-512.png">
+
+<link rel="stylesheet" href="style.css">
+
+
+<script src="https://img.y8.com/prevent-keys.js"></script></head>
+<body>
+
+<script>
+if (location.protocol.substr(0, 4) === "file")
+{
+	alert("Web exports won't work until you upload them. (When running on the file: protocol, browsers block many features from working for security reasons.)");
+}
+</script>
+	<script src="box2d.wasm.js"></script>
+	<noscript>
+		<div id="notSupportedWrap">
+			<h2 id="notSupportedTitle">This content requires JavaScript</h2>
+			<p class="notSupportedMessage">JavaScript appears to be disabled. Please enable it to view this content.</p>
+		</div>
+	</noscript>
+	<script src="scripts/supportcheck.js"></script>
+	<script src="scripts/offlineclient.js" type="module"></script>
+	<script src="scripts/main.js" type="module"></script>
+	<script src="scripts/register-sw.js" type="module"></script>
+
+</body>
+</html>
