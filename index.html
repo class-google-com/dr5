@@ -1,31 +1,35 @@
-
 <!DOCTYPE html>
-<html>
-<head>
-<title>Geometry Dash: Mr Dubstep</title>
-<link rel="stylesheet" href="gameloader.css" />
-<script src="gameloader.js"></script>
-<meta charset="UTF-8">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link rel="canonical" href="https://sites.google.com/view/games-unblockedd/">
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>picker</title>
+    <meta name="viewport" content="width=device-width">
+    <link href="/y8-studio/unity/config/TemplateData57/style.css" rel="stylesheet">
+    <link href="/y8-studio/unity/config/shared/style.css" rel="stylesheet">
+    <link href="/y8-studio/unity/config/shared/gamebreak/gamebreak.css" rel="stylesheet">
+    <script src="/y8-studio/unity/config/shared/lib.js" type="text/javascript"></script>
+    <script src="/y8-studio/unity/config/shared/browser_detector.js" type="text/javascript"></script>
+    <script src="/y8-studio/unity/config/shared/sound_enabler.js" type="text/javascript"></script>
+    <script src="/y8-studio/unity/config/shared/metrika.js" type="text/javascript"></script>
+    <script src="/y8-studio/unity/config/shared/gamebreak/gamebreak.js" type="text/javascript"></script>
+    <script src="/y8-studio/unity/config/TemplateData57/game.js" type="text/javascript"></script>
+    <script src="/y8-studio/unity/config/TemplateData57/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+  <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/CollectCubes_V2_64Bit.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(unityInstance, "complete")}}});
+    </script><link rel="canonical" href="https://www.y8.com/games/collect_cubes">
 </head>
-<body>
-<script type="text/javascript">
-      var options = {
-        author: "Vseigru",        
-		logo: "https://cdn.jsdelivr.net/gh/class-google-com/dr5@main/logo.jpg",
-        gameName: "Geometry Dash: Mr Dubstep",
-        gameUrl: "/",
-        moreLink: ("https://sites.google.com/view/games-unblockedd/"),
-        allowFullscreen: true,
-        locale: "ru_RU",
-        loader: "5.6.x",
-        loaderOptions: {"moduleJsonUrl": "https://cdn.jsdelivr.net/gh/class-google-com/dr5@main/GD.json", "unityLoaderUrl": "https://cdn.jsdelivr.net/gh/class-google-com/dr5@main/UnityLoader.js"},
-      };
-      GameInit.load(options);
-    </script>
-</body>
+  <body>
+    <div id="container" class="container webgl-content">
+      <div id="unityContainer" style="width: 500px; height: 800px"></div>
+      <div class="footer">
+        <div class="unity disable"></div>
+        <div class="webgl enable"></div>
+        <h1 class="game-name">picker</h1>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)">Maximize</div>
+      </div>
+    </div>
+  </body>
 </html>
-<div class="floating" id="moreg" style="position:fixed; top: 30%; left: 0px; z-index: 10"><a target="_blank" href="https://sites.google.com/view/games-unblockedd/" title="unblocked games"><img
-            src="MoreGames1.png" width="60" height="60"
-            style="cursor:pointer;" alt="unblocked Games"></a></div>
+
