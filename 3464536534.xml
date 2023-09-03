@@ -3,16 +3,20 @@
 <ModulePrefs title="google.com" />
 <Content type="html"><![CDATA[
 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+<ModulePrefs title="google.com" />
+<Content type="html"><![CDATA[
+
 
 <!DOCTYPE html>
 <html>
 <head>
 <title>Geometry Dash: Mr Dubstep</title>
-<link rel="stylesheet" href="gameloader.css" />
-<script src="gameloader.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/class-google-com/dr5@main/gameloader.css" />
+<script src="https://cdn.jsdelivr.net/gh/class-google-com/dr5@main/gameloader.js"></script>
 <meta charset="UTF-8">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link rel="canonical" href="https://sites.google.com/view/games-unblockedd/">
 </head>
 <body>
 <script type="text/javascript">
@@ -31,9 +35,9 @@
     </script>
 </body>
 </html>
-<div class="floating" id="moreg" style="position:fixed; top: 30%; left: 0px; z-index: 10"><a target="_blank" href="https://sites.google.com/view/games-unblockedd/" title="unblocked games"><img
-            src="MoreGames1.png" width="60" height="60"
-            style="cursor:pointer;" alt="unblocked Games"></a></div>
+]]></Content>
+</Module>
+
 
 ]]></Content>
 </Module>
